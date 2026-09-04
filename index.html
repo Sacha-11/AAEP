@@ -1,4 +1,4 @@
-//.filter para hacer el filtro
+<!--filter para hacer el filtro-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,7 +13,7 @@
       <h1>Animales nativos amenazados en el Valle de Punilla</h1>
       <p>
         Provincia de Córdoba, Argentina
-      </p>
+      </p>      
         <label for="search-input">🔎</label>
         <input type="text" id="search-input">
     </div>
@@ -30,7 +30,7 @@
     </section>
 
     <section class="tarjetas">
-      <article class="card">
+      <article class="card" data-animal="Cóndor Andino">
         <h3>Cóndor andino</h3>
         <p>
           Es una de las aves más emblemáticas de Córdoba. Necesita grandes áreas naturales
@@ -38,7 +38,7 @@
         </p>
       </article>
 
-      <article class="card">
+      <article class="card" data-animal="Loro hablador">
         <h3>Loro hablador</h3>
         <p>
           Es una especie muy llamativa y sensible a la pérdida de hábitat y al tráfico de fauna.
@@ -46,7 +46,7 @@
         </p>
       </article>
 
-      <article class="card">
+      <article class="card" data-animal="Puma">
         <h3>Puma</h3>
         <p>
           Aunque todavía habita sectores serranos, sufre la fragmentación del ambiente
@@ -54,7 +54,7 @@
         </p>
 
       </article>
-      <article class="card" date-card>
+      <article class="card" data-animal="Pegaso">
         <h3>Pegaso</h3>
         <p>
           El Pegaso es un majestuoso caballo alado de color blanco puro
@@ -88,5 +88,6 @@
     <hr>
     <p>&copy; Luis</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
